@@ -48,7 +48,7 @@ Você quer ser um programador? **Seja um autodidata.**
 
 ## Por que é tão difícil?
 
-![seriously](https://media.giphy.com/media/4a2XiSqMj9wIe2RCeO/giphy.gif)
+![dontnow](https://media.giphy.com/media/XeXzWgD6P4LG8/giphy.gif)
 
 Aprender a programar não é algo fácil; isso necessita uma nova forma de ver o mundo, pensar “*como um computador*”, pensar de forma analítica e lógica. Algo que, durante toda a educação básica, nunca nos foi ensinado.
 
@@ -64,7 +64,7 @@ Você quer ser um programador? **Não desista.**
 
 ## Qual a melhor forma de aprender?
 
-![coding](https://media.giphy.com/media/yBvndlpq8aCvS/giphy.gif)
+![learning](https://media.giphy.com/media/Tb2xdfqwX6THW/giphy.gif)
 
 Deixando claro novamente: esta é a minha visão sobre o assunto. Neste [artigo](https://medium.com/career-change-coder/understanding-your-individual-learning-styles-in-relation-to-learning-to-code-3ad24ebec551){:target="_blank"} (inglês) é possível ver os diferentes estilos de apredizados. E este [outro](https://medium.freecodecamp.org/choosing-the-right-course-9ae77fd3504a){:target="_blank"} (inglês) ajuda a escolher o seu tipo certo de curso online. 
 
@@ -72,7 +72,7 @@ Deixando claro novamente: esta é a minha visão sobre o assunto. Neste [artigo]
 
 Não seja apressado e já queira começar aprendendo o framework da moda da linguagem que está aprendendo. Foque nos fundamentos da linguagem, na sintaxe, nas estruturas de dados que a linguagem já traz implementadas. Eu programei anos em `Python` sem ao menos ler sua documentação. O resultado? Passei anos "*reinventando a roda*", coisas que o `Python` já me trazia de mão beijada, mas eu não tinha conhecimento disso. **Leia a documentação da linguagem que está aprendendo**.
 
-E outra: frameworks nascem e morrem à todo momento, mas as tecnologias bases resistirão por muito tempo. Então, antes de aprender o mais novo framework Javascript, tenha certeza de que você sabe tudo o que precisa sobre o próprio Javascript.
+E outra: frameworks nascem e morrem à todo momento, mas as tecnologias bases resistirão por muito tempo. Então, antes de aprender o mais novo framework `Javascript`, tenha certeza de que você sabe tudo o que precisa sobre o próprio `Javascript`.
 
 ### Pratique com algo divertido
 
@@ -80,7 +80,7 @@ Uma coisa é fato: você irá aprender muito mais se desafiando em um projeto pe
 
 ### Faça testes
 
-Várias linguagens de programação possibilitam que vocẽ utilize interpretadores interativos, como `Python`, `Ruby`, `Javascript (Node.js)` e `Elixir`. Então não tenha medo. Faça testes, brinque, se divirta descobrindo as sutilezas que cada linguagem tem. Até hoje, quando estou programando, sempre deixo o `iPython` aberto para ir testando pedaços de códigos.
+Várias linguagens de programação possibilitam que você utilize interpretadores interativos, como `Python`, `Ruby`, `Javascript (Node.js)` e `Elixir`. Então não tenha medo. Faça testes, brinque, se divirta descobrindo as sutilezas que cada linguagem tem. Até hoje, quando estou programando, sempre deixo o `iPython` aberto para ir testando pedaços de códigos.
 
 ### Seja curioso
 
@@ -112,7 +112,19 @@ Então, recapitulando, se você deseja ser um programador, não esqueça:
 - **não desista**;
 - **foque nos fundamentos, pratique e seja curioso**.
 
-Até mais.
+<br/>
+
+***
+
+<br/>
+
+E aí, gostou?
+
+![yep](https://media.giphy.com/media/xSM46ernAUN3y/giphy.gif)
+
+Que bom!
+
+Então, até mais.
 
 ## Referências e Links Úteis
 
