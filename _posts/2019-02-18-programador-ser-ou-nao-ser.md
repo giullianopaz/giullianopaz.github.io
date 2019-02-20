@@ -88,7 +88,7 @@ Isso merece um artigo próprio, mas iniciarei ele aqui. Como nós sabemos o que 
 
 Você quer se tornar `f*da` em uma linguagem de programação? Entenda tudo sobre ela. Entenda como ela implementa suas funcionalidades, como ela gerencia memória, por que os desenvolvedores da linguagem escolheram implementar determinada funcionalidade… Há muito mais coisas a se aprender sobre uma linguagem de programação do que sintaxe, estruturas de controle e estruturas de dados.
 
-Se pergunte sempre "*O que eu ainda não sei sobre isso?*". Seja curioso sobre tudo que o você estuda e estudar se tornará cada vez mais prazeroso.
+Se pergunte sempre "*O que eu ainda não sei sobre isso?*". Seja curioso sobre tudo o que você estuda e estudar se tornará cada vez mais prazeroso.
 
 Você quer ser um programador? **Foque nos fundamentos, pratique e seja curioso.**
 
