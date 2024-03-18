@@ -1,0 +1,72 @@
+baseurl = "http://giullianopaz.com"
+title = "Giulliano Paz"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Giulliano Paz"
+  info = "Senior Python Engineer"
+  description = "Giulliano Paz's personal website"
+  keywords = "blog,developer,personal,python,django,javascript,react,rust,go"
+  avatarurl = "img/avatar.jpg"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Email"
+  icon = "fa-brands fa-at fa-2x"
+  weight = 1
+  url = "mailto:workgiullianopaz@gmail.com"
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/giullianopaz/"
+[[params.social]]
+  name = "Telegram"
+  icon = "fa-brands fa-telegram fa-2x"
+  weight = 1
+  url = "https://t.me/giullianopaz?&text=Ol%C3%A1"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/giullianopaz/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
