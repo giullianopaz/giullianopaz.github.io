@@ -22,7 +22,7 @@ style = "github-dark"
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
-  since = 2019
+  since = 2024
 
   enableTwemoji = true
 
@@ -62,11 +62,11 @@ style = "github-dark"
   url = "https://www.linkedin.com/in/giullianopaz/"
 
 # Menu links
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+#[[menu.main]]
+#  name = "Blog"
+#  weight = 1
+#  url  = "http://blog.giullianopaz.com"
+#[[menu.main]]
+#  name = "About"
+#  weight = 2
+#  url = "about/"
