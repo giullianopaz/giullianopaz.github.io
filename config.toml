@@ -44,7 +44,7 @@ style = "github-dark"
   name = "Email"
   icon = "fa-brands fa-at fa-2x"
   weight = 1
-  url = "mailto:workgiullianopaz@gmail.com"
+  url = "mailto:contact@giullianopaz.com"
 [[params.social]]
   name = "Github"
   icon = "fa-brands fa-github fa-2x"
