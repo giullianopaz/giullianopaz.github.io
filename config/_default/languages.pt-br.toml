@@ -1,0 +1,28 @@
+disabled = false
+locale = "pt-br"
+label = "Português (Brasil)"
+weight = 2
+title = "Giulliano Paz"
+
+[params]
+  displayName = "PT"
+  isoCode = "pt-br"
+  rtl = false
+  dateFormat = "2 de January de 2006"
+  description = "Engenheiro de Software — Blog, projetos e mais."
+  copyright = "© 2024–2026 Giulliano Paz"
+
+[params.author]
+  name = "Giulliano Paz"
+  image = "img/avatar.png"
+  imageQuality = 96
+  headline = "Engenheiro Python Sênior"
+  bio = "Engenheiro de software focado em Python, Django e construção de sistemas backend robustos. Apaixonado por código limpo, open source e aprendizado contínuo."
+  links = [
+    { x-twitter = "https://x.com/giullianopaz" },
+    { linkedin = "https://www.linkedin.com/in/giullianopaz/" },
+    { reddit = "https://www.reddit.com/user/glpaz/" },
+    { github = "https://github.com/giullianopaz/" },
+    { telegram = "https://t.me/giullianopaz" },
+    { email = "mailto:giullianopaz@gmail.com" },
+  ]

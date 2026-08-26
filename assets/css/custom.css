@@ -1,0 +1,47 @@
+/* Custom styles for Omarchy-inspired design */
+
+/* JetBrains Mono Nerd Font for code and headings */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Apply JetBrains Mono to code blocks and pre elements */
+code, pre, .code, kbd, samp {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+}
+
+/* Apply Inter as the body font for clean readability */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* JetBrains Mono for headings — Omarchy terminal aesthetic */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-weight: 700;
+}
+
+/* Subtle terminal-style cursor blink on the site title */
+.site-title::after {
+  content: '▌';
+  animation: blink 1.2s step-end infinite;
+  color: rgb(var(--color-primary-400));
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* Smooth transitions for dark/light mode switching */
+* {
+  transition: background-color 0.3s ease, color 0.2s ease, border-color 0.3s ease;
+}
+
+/* Enhanced card hover effect */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(var(--color-primary-500), 0.15);
+}

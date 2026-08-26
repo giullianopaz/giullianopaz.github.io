@@ -1,0 +1,39 @@
+/* Omarchy Blue - Inspired by Tokyo Night + Omarchy OS aesthetic
+ * Deep blue-gray backgrounds with vivid blue accents.
+ * Designed for a terminal-inspired, developer-focused dark mode. */
+:root {
+  --color-neutral: 255, 255, 255;
+  /* Slate Blue Grays - Tokyo Night inspired */
+  --color-neutral-50: 241, 243, 249;
+  --color-neutral-100: 225, 229, 242;
+  --color-neutral-200: 195, 203, 227;
+  --color-neutral-300: 156, 169, 205;
+  --color-neutral-400: 115, 130, 175;
+  --color-neutral-500: 84, 100, 148;
+  --color-neutral-600: 59, 73, 117;
+  --color-neutral-700: 42, 53, 90;
+  --color-neutral-800: 26, 35, 62;
+  --color-neutral-900: 16, 22, 44;
+  /* Vivid Blue - Primary accent */
+  --color-primary-50: 232, 240, 255;
+  --color-primary-100: 209, 225, 255;
+  --color-primary-200: 163, 196, 255;
+  --color-primary-300: 122, 168, 255;
+  --color-primary-400: 82, 139, 255;
+  --color-primary-500: 56, 118, 246;
+  --color-primary-600: 38, 95, 225;
+  --color-primary-700: 30, 74, 196;
+  --color-primary-800: 28, 58, 158;
+  --color-primary-900: 24, 48, 122;
+  /* Teal Cyan - Secondary accent */
+  --color-secondary-50: 228, 250, 255;
+  --color-secondary-100: 196, 243, 255;
+  --color-secondary-200: 142, 232, 252;
+  --color-secondary-300: 86, 216, 245;
+  --color-secondary-400: 34, 196, 232;
+  --color-secondary-500: 10, 168, 204;
+  --color-secondary-600: 8, 136, 172;
+  --color-secondary-700: 14, 108, 140;
+  --color-secondary-800: 20, 86, 114;
+  --color-secondary-900: 20, 72, 96;
+}

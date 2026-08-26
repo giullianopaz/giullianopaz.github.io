@@ -1,0 +1,28 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Giulliano Paz"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Software Engineer — Blog, projects, and more."
+  copyright = "© 2024–2026 Giulliano Paz"
+
+[params.author]
+  name = "Giulliano Paz"
+  image = "img/avatar.png"
+  imageQuality = 96
+  headline = "Senior Python Engineer"
+  bio = "Software engineer focused on Python, Django, and building robust backend systems. Passionate about clean code, open source, and continuous learning."
+  links = [
+    { x-twitter = "https://x.com/giullianopaz" },
+    { linkedin = "https://www.linkedin.com/in/giullianopaz/" },
+    { reddit = "https://www.reddit.com/user/glpaz/" },
+    { github = "https://github.com/giullianopaz/" },
+    { telegram = "https://t.me/giullianopaz" },
+    { email = "mailto:giullianopaz@gmail.com" },
+  ]

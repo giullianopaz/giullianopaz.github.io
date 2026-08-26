@@ -1,0 +1,43 @@
+# -- Menu Principal --
+
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 10
+
+[[main]]
+  name = "Sobre"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "Projetos"
+  pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "Currículo"
+  pageRef = "cv"
+  weight = 40
+
+[[main]]
+  name = "Contribuições"
+  pageRef = "contributions"
+  weight = 50
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 60
+
+# -- Menu Rodapé --
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "Categorias"
+  pageRef = "categories"
+  weight = 20

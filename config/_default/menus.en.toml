@@ -1,0 +1,43 @@
+# -- Main Menu --
+
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 10
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "Projects"
+  pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "CV"
+  pageRef = "cv"
+  weight = 40
+
+[[main]]
+  name = "Contributions"
+  pageRef = "contributions"
+  weight = 50
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 60
+
+# -- Footer Menu --
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "Categories"
+  pageRef = "categories"
+  weight = 20
