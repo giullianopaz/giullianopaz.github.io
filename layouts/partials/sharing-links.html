@@ -1,0 +1,25 @@
+{{ with .Params.sharingLinks | default (.Site.Params.article.sharingLinks | default false) }}
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    {{ range . }}
+      {{ $platform := . }}
+      {{ $url := "" }}
+      {{ range $link := $.Site.Params.Author.links }}
+        {{ if isset $link $platform }}
+          {{ $url = index $link $platform }}
+        {{ end }}
+      {{ end }}
+      {{ if $url }}
+        {{ $isEmail := eq $platform "email" }}
+        <a
+          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          target="_blank"
+          href="{{ cond $isEmail "mailto:giullianopaz@gmail.com" ($url | safeURL) }}"
+          title="{{ title $platform }}"
+          aria-label="{{ title $platform }}"
+          rel="me noopener noreferrer">
+          {{ partial "icon.html" $platform }}
+        </a>
+      {{ end }}
+    {{ end }}
+  </section>
+{{ end }}

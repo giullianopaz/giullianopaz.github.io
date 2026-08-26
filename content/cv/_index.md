@@ -12,8 +12,8 @@ layout: "simple"
 - **Location**: Alegrete, RS - Brazil
 - **Phone**: +55 (55) 9 9946-5594
 - **Email**: giullianopaz@gmail.com
-- **LinkedIn**: [linkedin.com/in/giullianopaz](https://linkedin.com/in/giullianopaz)
-- **Github**: [github.com/giullianopaz](https://github.com/giullianopaz)
+- **LinkedIn**: [linkedin.com/in/giullianopaz](https://www.linkedin.com/in/giullianopaz/)
+- **Github**: [github.com/giullianopaz](https://github.com/giullianopaz/)
 
 Results-driven Senior Software Engineer with over 8 years of diverse experience designing scalable backend architectures, automating CI/CD pipelines, and optimizing application performance. Expertise spanning Python, Django, FastAPI, and TypeScript, with a strong background in developing robust REST/GraphQL APIs, computer vision systems, and IoT integrations. Proven track record of spearheading intelligent test automation to reduce infrastructure costs and collaborating seamlessly across global cross-functional teams to deliver high-impact software solutions.
 

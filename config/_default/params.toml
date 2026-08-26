@@ -77,7 +77,7 @@ fingerprintAlgorithm = "sha512"
   showCategoriesInSecondaryColor = true
   showAuthorsBadges = false
   showWordCount = true
-  sharingLinks = ["linkedin", "twitter", "reddit", "telegram", "email"]
+  sharingLinks = ["x-twitter", "linkedin", "reddit", "github", "telegram", "email"]
   showZenMode = true
 
 [list]

@@ -12,8 +12,8 @@ layout: "simple"
 - **Localização**: Alegrete, RS - Brasil
 - **Telefone**: +55 (55) 9 9946-5594
 - **Email**: giullianopaz@gmail.com
-- **LinkedIn**: [linkedin.com/in/giullianopaz](https://linkedin.com/in/giullianopaz)
-- **Github**: [github.com/giullianopaz](https://github.com/giullianopaz)
+- **LinkedIn**: [linkedin.com/in/giullianopaz](https://www.linkedin.com/in/giullianopaz/)
+- **Github**: [github.com/giullianopaz](https://github.com/giullianopaz/)
 
 Engenheiro de Software Sênior focado em resultados, com mais de 8 anos de experiência diversificada projetando arquiteturas de backend escaláveis, automatizando pipelines CI/CD e otimizando a performance de aplicações. Expertise abrangendo Python, Django, FastAPI e TypeScript, com forte background no desenvolvimento de APIs REST/GraphQL robustas, sistemas de visão computacional e integrações IoT. Histórico comprovado liderando automação de testes inteligente para reduzir custos de infraestrutura e colaborando perfeitamente com equipes globais multifuncionais para entregar soluções de software de alto impacto.
 
