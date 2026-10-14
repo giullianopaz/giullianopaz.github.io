@@ -1,5 +1,5 @@
 // Service Worker for giullianopaz.github.io PWA
-const CACHE_NAME = 'gpaz-v1';
+const CACHE_NAME = 'gpaz-v2';
 const STATIC_ASSETS = [
   '/',
   '/css/compiled/main.css',
@@ -28,12 +28,13 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// Fetch: network-first strategy for pages, cache-first for assets
+// Fetch: network-first strategy for pages and /aulas/, cache-first for other assets
 self.addEventListener('fetch', (event) => {
   const { request } = event;
+  const isAulas = request.url.includes('/aulas/');
 
-  if (request.mode === 'navigate') {
-    // Network first for HTML pages
+  if (request.mode === 'navigate' || isAulas) {
+    // Network first for HTML pages and /aulas/ resources
     event.respondWith(
       fetch(request)
         .then((response) => {
