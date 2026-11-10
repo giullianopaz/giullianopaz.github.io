@@ -1,0 +1,114 @@
+[
+  {
+    "imagem": "ilustracoes/tiranossauro.webp",
+    "pt": {
+      "nome": "Tiranossauro rex",
+      "lang": "pt-BR",
+      "audio": "audio/tiranossauro-pt.mp3"
+    },
+    "en": {
+      "nome": "Tyrannosaurus rex",
+      "lang": "en-US",
+      "audio": "audio/tiranossauro-en.mp3"
+    },
+    "descricaoImagem": "Dinossauro bípede de cabeça grande e braços bem curtos."
+  },
+  {
+    "imagem": "ilustracoes/triceratopo.webp",
+    "pt": {
+      "nome": "Tricerátopo",
+      "lang": "pt-BR",
+      "audio": "audio/triceratopo-pt.mp3"
+    },
+    "en": {
+      "nome": "Triceratops",
+      "lang": "en-US",
+      "audio": "audio/triceratopo-en.mp3"
+    },
+    "descricaoImagem": "Dinossauro de quatro patas com três chifres e um escudo ósseo atrás da cabeça."
+  },
+  {
+    "imagem": "ilustracoes/estegossauro.webp",
+    "pt": {
+      "nome": "Estegossauro",
+      "lang": "pt-BR",
+      "audio": "audio/estegossauro-pt.mp3"
+    },
+    "en": {
+      "nome": "Stegosaurus",
+      "lang": "en-US",
+      "audio": "audio/estegossauro-en.mp3"
+    },
+    "descricaoImagem": "Dinossauro de quatro patas com placas no dorso e espinhos na ponta da cauda."
+  },
+  {
+    "imagem": "ilustracoes/braquiossauro.webp",
+    "pt": {
+      "nome": "Braquiossauro",
+      "lang": "pt-BR",
+      "audio": "audio/braquiossauro-pt.mp3"
+    },
+    "en": {
+      "nome": "Brachiosaurus",
+      "lang": "en-US",
+      "audio": "audio/braquiossauro-en.mp3"
+    },
+    "descricaoImagem": "Dinossauro de pescoço alto e patas dianteiras mais longas que as traseiras."
+  },
+  {
+    "imagem": "ilustracoes/velociraptor.webp",
+    "pt": {
+      "nome": "Velociraptor",
+      "lang": "pt-BR",
+      "audio": "audio/velociraptor-pt.mp3"
+    },
+    "en": {
+      "nome": "Velociraptor",
+      "lang": "en-US",
+      "audio": "audio/velociraptor-en.mp3"
+    },
+    "descricaoImagem": "Dinossauro bípede com penas, cauda comprida e uma garra curva em cada pé."
+  },
+  {
+    "imagem": "ilustracoes/espinossauro.webp",
+    "pt": {
+      "nome": "Espinossauro",
+      "lang": "pt-BR",
+      "audio": "audio/espinossauro-pt.mp3"
+    },
+    "en": {
+      "nome": "Spinosaurus",
+      "lang": "en-US",
+      "audio": "audio/espinossauro-en.mp3"
+    },
+    "descricaoImagem": "Dinossauro de focinho alongado e uma grande vela no dorso."
+  },
+  {
+    "imagem": "ilustracoes/anquilossauro.webp",
+    "pt": {
+      "nome": "Anquilossauro",
+      "lang": "pt-BR",
+      "audio": "audio/anquilossauro-pt.mp3"
+    },
+    "en": {
+      "nome": "Ankylosaurus",
+      "lang": "en-US",
+      "audio": "audio/anquilossauro-en.mp3"
+    },
+    "descricaoImagem": "Dinossauro baixo de quatro patas, com armadura no dorso e uma clava na ponta da cauda."
+  },
+  {
+    "imagem": "ilustracoes/diplodoco.webp",
+    "pt": {
+      "nome": "Diplodoco",
+      "lang": "pt-BR",
+      "audio": "audio/diplodoco-pt.mp3"
+    },
+    "en": {
+      "nome": "Diplodocus",
+      "lang": "en-US",
+      "audio": "audio/diplodoco-en.mp3"
+    },
+    "descricaoImagem": "Dinossauro de quatro patas com pescoço comprido e cauda fina como um chicote."
+  }
+]

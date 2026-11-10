@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#354527">
+  <meta name="description" content="Explore oito dinossauros ilustrados e ouça seus nomes em português e inglês.">
+  <link rel="canonical" href="https://giullianopaz.com/games/dinossauros-falantes/">
+  <link rel="stylesheet" href="/games/dinossauros-falantes/jogo.css">
+  <script src="/games/dinossauros-falantes/jogo.js" defer></script>
+  <title>Dinossauros falantes · Educação</title>
+</head>
+<body>
+  <header class="abertura">
+    <div class="pagina">
+      <a href="/games/" class="marca">Giulliano Paz <span> / Games</span></a>
+      <p class="chamada">8 dinossauros para explorar</p>
+      <h1>Dinossauros falantes</h1>
+      <p class="instrucao">Toque em um alto-falante para ouvir o nome do dinossauro.</p>
+      <ol class="legenda" aria-label="Ordem dos botões">
+        <li class="portugues">1 · Português</li>
+        <li class="ingles">2 · Inglês</li>
+      </ol>
+    </div>
+  </header>
+  <main class="pagina">
+    <p id="estado" role="status"></p>
+    <noscript><p>Ative o JavaScript para ver os dinossauros e ouvir os nomes.</p></noscript>
+    <ul class="grade" id="dinossauros" aria-label="Catálogo de dinossauros"></ul>
+  </main>
+  <footer class="pagina creditos">
+    Ilustrações geradas para o jogo. Referência para os dinossauros: <a href="https://www.nhm.ac.uk/discover/dino-directory">Natural History Museum</a>.
+    Áudios sintetizados com <a href="https://github.com/OHF-Voice/piper1-gpl">Piper</a>.
+  </footer>
+  <template id="alto-falante">
+    <svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M11 5 6 9H3v6h3l5 4zM15 9a4 4 0 0 1 0 6m3-9a8 8 0 0 1 0 12"/>
+    </svg>
+  </template>
+</body>
+</html>

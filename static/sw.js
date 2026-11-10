@@ -31,7 +31,10 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const { request } = event;
   const url = new URL(request.url);
-  if (url.origin === self.location.origin && url.pathname.startsWith('/games/bandeiras-falantes/')) {
+  if (url.origin === self.location.origin && (
+    url.pathname.startsWith('/games/bandeiras-falantes/') ||
+    url.pathname.startsWith('/games/dinossauros-falantes/')
+  )) {
     event.respondWith(fetch(request));
     return;
   }
