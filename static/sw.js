@@ -2,7 +2,6 @@
 const CACHE_NAME = 'gpaz-v3';
 const STATIC_ASSETS = [
   '/',
-  '/css/compiled/main.css',
   '/manifest.json',
 ];
 
