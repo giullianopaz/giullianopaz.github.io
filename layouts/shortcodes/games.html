@@ -1,0 +1,8 @@
+<ul>
+  {{ range hugo.Data.games }}
+    <li>
+      <a href="{{ printf "/games/%s/" .slug }}">{{ .title }}</a>
+      <p>{{ index .description $.Page.Language.Lang | default .description.en }}</p>
+    </li>
+  {{ end }}
+</ul>

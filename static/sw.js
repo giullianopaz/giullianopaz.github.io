@@ -1,5 +1,5 @@
 // Service Worker for giullianopaz.github.io PWA
-const CACHE_NAME = 'gpaz-v3';
+const CACHE_NAME = 'gpaz-v4';
 const STATIC_ASSETS = [
   '/',
   '/manifest.json',
@@ -27,19 +27,19 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// Fetch: network-first strategy for pages and /aulas/, cache-first for other assets
+// Fetch: network-first strategy for pages and /games/aula-em-casa/, cache-first for other assets
 self.addEventListener('fetch', (event) => {
   const { request } = event;
   const url = new URL(request.url);
-  if (url.origin === self.location.origin && /^\/ed\/paises(?:\/|$)/.test(url.pathname)) {
+  if (url.origin === self.location.origin && url.pathname.startsWith('/games/bandeiras-falantes/')) {
     event.respondWith(fetch(request));
     return;
   }
 
-  const isAulas = request.url.includes('/aulas/');
+  const isAulas = url.origin === self.location.origin && url.pathname.startsWith('/games/aula-em-casa/');
 
   if (request.mode === 'navigate' || isAulas) {
-    // Network first for HTML pages and /aulas/ resources
+    // Network first for HTML pages and /games/aula-em-casa/ resources
     event.respondWith(
       fetch(request)
         .then((response) => {

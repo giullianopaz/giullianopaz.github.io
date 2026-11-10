@@ -6,7 +6,7 @@ layout: "simple"
 
 ## Featured Projects
 
-### 📚 [Homeschooling Platform — Evidence-Based Early Childhood Education](/aulas/)
+### 📚 [Homeschooling Platform — Evidence-Based Early Childhood Education](/games/aula-em-casa/)
 
 An interactive, slide-based lesson platform designed for 60-minute daily home lessons (divided into four dynamic 15-minute micro-blocks), grounded in cognitive science and global benchmarks:
 
@@ -16,5 +16,5 @@ An interactive, slide-based lesson platform designed for 60-minute daily home le
 - **Consolidation & Japanese MEXT Routines**: Daily calendar math, tidy-up challenges, and Rosenshine's 80% mastery Friday checklist persisted in `localStorage`.
 - **Curricular Scope**: Weeks 1 to 9 complete (45 daily lesson modules, over 700 interactive presentation slides).
 
-👉 **[Open Homeschooling Slides in Fullscreen →](/aulas/)**
+👉 **[Open Homeschooling Slides in Fullscreen →](/games/aula-em-casa/)**
 

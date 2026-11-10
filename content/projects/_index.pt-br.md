@@ -6,7 +6,7 @@ layout: "simple"
 
 ## Projetos em Destaque
 
-### 📚 [Aulas em Casa — Educação Infantil Baseada em Evidências](/aulas/)
+### 📚 [Aulas em Casa — Educação Infantil Baseada em Evidências](/games/aula-em-casa/)
 
 Plataforma interativa de slides estruturados para aulas domésticas de 60 minutos diários (divididos em 4 blocos dinâmicos de 15 minutos), fundamentada no estudo *Early Childhood Education Roadmap* e nas melhores práticas internacionais:
 
@@ -16,5 +16,5 @@ Plataforma interativa de slides estruturados para aulas domésticas de 60 minuto
 - **Consolidação e Hábitos Japoneses (MEXT & Rosenshine)**: Calendário diário, rotina de arrumação matemática e checklist de domínio de 80% às sextas-feiras com persistência no navegador.
 - **Cobertura Curricular**: Semanas 1 a 9 completas (45 aulas diárias, mais de 700 slides interativos).
 
-👉 **[Abrir Plataforma de Aulas em Tela Cheia →](/aulas/)**
+👉 **[Abrir Plataforma de Aulas em Tela Cheia →](/games/aula-em-casa/)**
 

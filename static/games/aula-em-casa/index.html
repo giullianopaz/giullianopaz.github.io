@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="canonical" href="https://giullianopaz.com/games/aula-em-casa/">
+  <title>Aulas em Casa · Educação Infantil Baseada em Evidências</title>
+  <meta name="description" content="Slides diários e estruturados de Matemática de Singapura (CPA) e Alfabetização Fônica (Método das Onomatopeias) para Frantiesco (4 anos) e Giuseppe (5 anos).">
+
+  <!-- Fonte Andika (SIL - desenhada especificamente para início da alfabetização e clareza visual) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/aulas.css?v=1">
+</head>
+<body>
+  <div id="app">
+    <!-- Barra Superior de Navegação e Ferramentas -->
+    <header class="navbar" id="navbarContainer">
+      <div class="brand" onclick="window.location.hash = '#/'" title="Voltar ao Painel Geral de Semanas">
+        <span class="badge-logo">Educação Baseada em Evidências</span>
+        <span>Aulas em Casa</span>
+      </div>
+
+      <div class="nav-controls">
+        <!-- Seletor de Semana -->
+        <div class="selector-group">
+          <select id="semanaSelect" onchange="window.AULAS.mudarSemana(this.value)">
+            <option value="">Painel de Semanas</option>
+            <option value="1">Semana 1 · Vogais A e E (Classificação & 1–3)</option>
+            <option value="2">Semana 2 · Vogais I e O (Ligações de 3 e 4)</option>
+            <option value="3">Semana 3 · Vogal U & As 5 Vogais (Ligações do 5)</option>
+            <option value="4">Semana 4 · Consoantes M e F (Quantidades 6 e 7)</option>
+            <option value="5">Semana 5 · Consoantes V e S (Quantidades 8 e 9)</option>
+            <option value="6">Semana 6 · Consoante Z & O Número 10 ('Faça 10')</option>
+            <option value="7">Semana 7 · Consoantes L e N (Geometria 2D)</option>
+            <option value="8">Semana 8 · Consoantes J e X (Relações Espaciais)</option>
+            <option value="9">Semana 9 · Consoante R & Medições de Comprimento</option>
+          </select>
+        </div>
+
+        <!-- Seletor de Dias (Segunda a Sexta) -->
+        <div class="dias-nav" id="diasNav">
+          <button class="dia-btn active" onclick="window.AULAS.mudarDia(1)">Seg</button>
+          <button class="dia-btn" onclick="window.AULAS.mudarDia(2)">Ter</button>
+          <button class="dia-btn" onclick="window.AULAS.mudarDia(3)">Qua</button>
+          <button class="dia-btn" onclick="window.AULAS.mudarDia(4)">Qui</button>
+          <button class="dia-btn" onclick="window.AULAS.mudarDia(5)">Sex</button>
+        </div>
+      </div>
+
+      <!-- Ações Rápidas (Timer, Materiais, Fundamentos, Tela Cheia) -->
+      <div class="header-actions">
+        <button class="btn-tool" id="timerBtn" onclick="window.AULAS.toggleTimer()" title="Cronômetro do bloco de 15 minutos (Atalho: T)">
+          ⏱️ 15:00
+        </button>
+        <button class="btn-tool" onclick="window.AULAS.abrirMateriais()" title="Ver lista de materiais manipulativos da semana">
+          📦 Materiais
+        </button>
+        <button class="btn-tool" onclick="window.AULAS.abrirFundamentos()" title="Ver fundamentação científica (Dehaene, Rosenshine, Singapura CPA)">
+          🧠 Fundamentos
+        </button>
+        <button class="btn-tool" onclick="window.AULAS.abrirAtalhos()" title="Ver atalhos do teclado">
+          ⌨️ Atalhos
+        </button>
+        <button class="btn-tool" onclick="window.AULAS.toggleFullscreen()" title="Alternar modo de tela cheia (Atalho: F)">
+          ⛶ Tela Cheia
+        </button>
+      </div>
+    </header>
+
+    <!-- Palco Principal de Exibição dos Slides -->
+    <main class="slide-stage" id="mainStage">
+      <!-- Injetado dinamicamente pelo app.js -->
+    </main>
+  </div>
+
+  <!-- Bootstrap de Registro Curricular -->
+  <script>
+    window.AULAS = window.AULAS || {};
+    window.AULAS._semanasBuffer = window.AULAS._semanasBuffer || {};
+    window.AULAS.registrarSemana = function(d) { window.AULAS._semanasBuffer[d.numero] = d; };
+  </script>
+
+  <!-- Scripts Curriculares e de Dados (Sem dependências externas, funcionamento 100% offline) -->
+  <script src="js/dados/fonemas.js?v=1"></script>
+  <script src="js/dados/semana-01.js?v=1"></script>
+  <script src="js/dados/semana-02.js?v=1"></script>
+  <script src="js/dados/semana-03.js?v=1"></script>
+  <script src="js/dados/semana-04.js?v=1"></script>
+  <script src="js/dados/semana-05.js?v=1"></script>
+  <script src="js/dados/semana-06.js?v=1"></script>
+  <script src="js/dados/semana-07.js?v=1"></script>
+  <script src="js/dados/semana-08.js?v=1"></script>
+  <script src="js/dados/semana-09.js?v=1"></script>
+
+  <!-- Biblioteca de Componentes e Controlador -->
+  <script src="js/componentes.js?v=1"></script>
+  <script src="js/app.js?v=1"></script>
+</body>
+</html>

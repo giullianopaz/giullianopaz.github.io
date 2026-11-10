@@ -1,4 +1,4 @@
-const pasta = '/ed/paises/';
+const pasta = '/games/bandeiras-falantes/';
 const grade = document.querySelector('#paises');
 const estado = document.querySelector('#estado');
 const icone = document.querySelector('#alto-falante');

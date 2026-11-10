@@ -2,45 +2,12 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#133e44">
-  <meta name="description" content="Explore 195 bandeiras e ouça os nomes dos países em português, inglês e em um idioma local.">
-  <link rel="canonical" href="https://giullianopaz.com/ed/paises">
-  <link rel="stylesheet" href="/ed/paises/jogo.css">
-  <script src="/ed/paises/jogo.js" defer></script>
-  <title>Bandeiras falantes · Educação</title>
+  <title>Bandeiras falantes</title>
+  <link rel="canonical" href="https://giullianopaz.com/games/bandeiras-falantes/">
+  <script>location.replace('/games/bandeiras-falantes/' + location.search + location.hash);</script>
+  <noscript><meta http-equiv="refresh" content="0; url=/games/bandeiras-falantes/"></noscript>
 </head>
 <body>
-  <header class="abertura">
-    <div class="pagina">
-      <a href="/" class="marca">Giulliano Paz <span> / Educação</span></a>
-      <p class="chamada">195 países para explorar</p>
-      <h1>Bandeiras falantes</h1>
-      <p class="instrucao">Toque em um alto-falante para ouvir o nome do país.</p>
-      <ol class="legenda" aria-label="Ordem dos botões">
-        <li class="portugues">1 · Português</li>
-        <li class="ingles">2 · Inglês</li>
-        <li class="local">3 · Idioma local</li>
-      </ol>
-    </div>
-  </header>
-  <main class="pagina">
-    <p id="estado" role="status"></p>
-    <noscript><p>Ative o JavaScript para ver as bandeiras e ouvir os nomes.</p></noscript>
-    <ul class="grade" id="paises" aria-label="Bandeiras dos países"></ul>
-  </main>
-  <footer class="pagina creditos">
-    Bandeiras da <a href="https://flagpedia.net/download">Flagpedia</a>.
-    Nomes com base no <a href="https://cldr.unicode.org/translation/displaynames/countryregion-territory-names">Unicode CLDR</a> (<a href="/ed/paises/LICENCA-UNICODE.txt">licença</a>)
-    e na <a href="https://unstats.un.org/unsd/ungegn/sessions/3rd_session_2023/documents/GEGN.2_2023_116_CRP116.pdf">lista da ONU</a>.
-    Áudios sintetizados com <a href="https://huggingface.co/rhasspy/piper-voices">Piper</a>,
-    <a href="https://github.com/espeak-ng/espeak-ng">eSpeak NG</a> e
-    <a href="https://huggingface.co/facebook/mms-tts">Meta MMS-TTS</a> para uso educativo.
-  </footer>
-  <template id="alto-falante">
-    <svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M11 5 6 9H3v6h3l5 4zM15 9a4 4 0 0 1 0 6m3-9a8 8 0 0 1 0 12"/>
-    </svg>
-  </template>
+  <p><a href="/games/bandeiras-falantes/">Abrir Bandeiras falantes</a></p>
 </body>
 </html>
